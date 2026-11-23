@@ -1,0 +1,11 @@
+{
+  "format": "miau-paket-v1",
+  "id": "sicher-coden",
+  "name": "Sicher coden",
+  "version": "1.0.0",
+  "beschreibung": "Hooks: .env und Schlüsseldateien nie ändern, nach jeder Änderung die Tests laufen lassen. Dazu ein Skill für kleine Änderungen.",
+  "skills": ["skills/kleine-diffs/SKILL.md"],
+  "mcp": [],
+  "mcpLokal": [],
+  "hooks": {"schuetzen": [".env", "**/*.pem", "**/*.key"], "danach": ["npm test"]}
+}

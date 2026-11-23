@@ -1,0 +1,11 @@
+{
+  "format": "miau-paket-v1",
+  "id": "deutsch-schreiben",
+  "name": "Klar schreiben",
+  "version": "1.0.0",
+  "beschreibung": "Skill: verständliche, kurze deutsche Texte ohne Fachjargon.",
+  "skills": ["skills/klar-schreiben/SKILL.md"],
+  "mcp": [],
+  "mcpLokal": [],
+  "hooks": {"schuetzen": [], "danach": []}
+}

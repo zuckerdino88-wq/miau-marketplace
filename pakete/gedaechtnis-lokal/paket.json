@@ -1,0 +1,13 @@
+{
+  "format": "miau-paket-v1",
+  "id": "gedaechtnis-lokal",
+  "name": "Lokales Wissensnetz",
+  "version": "1.0.0",
+  "beschreibung": "Lokaler MCP-Server (offizieller Memory-Server): ein Wissensgraph für den Code-Agenten, läuft auf deinem Gerät.",
+  "skills": [],
+  "mcp": [],
+  "mcpLokal": [
+    {"id": "memory", "name": "Wissensnetz", "befehl": ["npx", "-y", "@modelcontextprotocol/server-memory"]}
+  ],
+  "hooks": {"schuetzen": [], "danach": []}
+}

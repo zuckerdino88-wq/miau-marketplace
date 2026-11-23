@@ -1,0 +1,9 @@
+{
+  "format": "miau-marktplatz-v1",
+  "pakete": [
+    {"id": "deutsch-schreiben", "name": "Klar schreiben", "version": "1.0.0", "beschreibung": "Skill: verständliche, kurze deutsche Texte ohne Fachjargon.", "pfad": "pakete/deutsch-schreiben/paket.json"},
+    {"id": "doku-suche", "name": "Doku-Suche", "version": "1.0.0", "beschreibung": "DeepWiki und Context7 über das Netz: aktuelle Dokumentation zu GitHub-Projekten und Bibliotheken, dazu ein Skill, der erst nachschlägt.", "pfad": "pakete/doku-suche/paket.json"},
+    {"id": "sicher-coden", "name": "Sicher coden", "version": "1.0.0", "beschreibung": "Hooks: .env und Schlüsseldateien nie ändern, nach jeder Änderung die Tests laufen lassen. Dazu ein Skill für kleine Änderungen.", "pfad": "pakete/sicher-coden/paket.json"},
+    {"id": "gedaechtnis-lokal", "name": "Lokales Wissensnetz", "version": "1.0.0", "beschreibung": "Lokaler MCP-Server (offizieller Memory-Server): ein Wissensgraph für den Code-Agenten, läuft auf deinem Gerät.", "pfad": "pakete/gedaechtnis-lokal/paket.json"}
+  ]
+}

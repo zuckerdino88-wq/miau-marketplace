@@ -1,0 +1,14 @@
+{
+  "format": "miau-paket-v1",
+  "id": "doku-suche",
+  "name": "Doku-Suche",
+  "version": "1.0.0",
+  "beschreibung": "DeepWiki und Context7 über das Netz: aktuelle Dokumentation zu GitHub-Projekten und Bibliotheken, dazu ein Skill, der erst nachschlägt.",
+  "skills": ["skills/doku-zuerst/SKILL.md"],
+  "mcp": [
+    {"id": "deepwiki", "name": "DeepWiki", "url": "https://mcp.deepwiki.com/mcp"},
+    {"id": "context7", "name": "Context7", "url": "https://mcp.context7.com/mcp"}
+  ],
+  "mcpLokal": [],
+  "hooks": {"schuetzen": [], "danach": []}
+}
